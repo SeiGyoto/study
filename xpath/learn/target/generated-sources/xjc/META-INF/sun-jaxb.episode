@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+このファイルは、JavaTM Architecture for XML Binding(JAXB) Reference Implementation、v2.2.11によって生成されました 
+<a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a>を参照してください 
+ソース・スキーマの再コンパイル時にこのファイルの変更は失われます。 
+生成日: 2017.10.03 時間 09:39:11 AM JST 
+
+  -->
+  <bindings xmlns:tns="http://www.webserviceX.NET" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="country.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:GetCountryByCountryCode">
+      <class ref="country.wsdl.GetCountryByCountryCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCountryByCountryCodeResponse">
+      <class ref="country.wsdl.GetCountryByCountryCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetISD">
+      <class ref="country.wsdl.GetISD"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetISDResponse">
+      <class ref="country.wsdl.GetISDResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCountries">
+      <class ref="country.wsdl.GetCountries"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCountriesResponse">
+      <class ref="country.wsdl.GetCountriesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyCodeByCurrencyName">
+      <class ref="country.wsdl.GetCurrencyCodeByCurrencyName"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyCodeByCurrencyNameResponse">
+      <class ref="country.wsdl.GetCurrencyCodeByCurrencyNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetISOCountryCodeByCountyName">
+      <class ref="country.wsdl.GetISOCountryCodeByCountyName"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetISOCountryCodeByCountyNameResponse">
+      <class ref="country.wsdl.GetISOCountryCodeByCountyNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyCode">
+      <class ref="country.wsdl.GetCurrencyCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyCodeResponse">
+      <class ref="country.wsdl.GetCurrencyCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCountryByCurrencyCode">
+      <class ref="country.wsdl.GetCountryByCurrencyCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCountryByCurrencyCodeResponse">
+      <class ref="country.wsdl.GetCountryByCurrencyCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencies">
+      <class ref="country.wsdl.GetCurrencies"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrenciesResponse">
+      <class ref="country.wsdl.GetCurrenciesResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyByCountry">
+      <class ref="country.wsdl.GetCurrencyByCountry"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCurrencyByCountryResponse">
+      <class ref="country.wsdl.GetCurrencyByCountryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetGMTbyCountry">
+      <class ref="country.wsdl.GetGMTbyCountry"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetGMTbyCountryResponse">
+      <class ref="country.wsdl.GetGMTbyCountryResponse"/>
+    </bindings>
+  </bindings>
+</bindings>

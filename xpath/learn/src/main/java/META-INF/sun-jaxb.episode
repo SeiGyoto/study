@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+このファイルは、JavaTM Architecture for XML Binding(JAXB) Reference Implementation、v2.2.11によって生成されました 
+<a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a>を参照してください 
+ソース・スキーマの再コンパイル時にこのファイルの変更は失われます。 
+生成日: 2017.10.03 時間 09:39:59 AM JST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.webserviceX.NET">
+    <schemaBindings map="false">
+      <package name="com.sample.ws"/>
+    </schemaBindings>
+    <bindings scd="tns:GetCountryByCountryCode">
+      <class ref="com.sample.ws.GetCountryByCountryCode"/>
+    </bindings>
+    <bindings scd="tns:GetCountryByCountryCodeResponse">
+      <class ref="com.sample.ws.GetCountryByCountryCodeResponse"/>
+    </bindings>
+    <bindings scd="tns:GetISD">
+      <class ref="com.sample.ws.GetISD"/>
+    </bindings>
+    <bindings scd="tns:GetISDResponse">
+      <class ref="com.sample.ws.GetISDResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCountries">
+      <class ref="com.sample.ws.GetCountries"/>
+    </bindings>
+    <bindings scd="tns:GetCountriesResponse">
+      <class ref="com.sample.ws.GetCountriesResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyCodeByCurrencyName">
+      <class ref="com.sample.ws.GetCurrencyCodeByCurrencyName"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyCodeByCurrencyNameResponse">
+      <class ref="com.sample.ws.GetCurrencyCodeByCurrencyNameResponse"/>
+    </bindings>
+    <bindings scd="tns:GetISOCountryCodeByCountyName">
+      <class ref="com.sample.ws.GetISOCountryCodeByCountyName"/>
+    </bindings>
+    <bindings scd="tns:GetISOCountryCodeByCountyNameResponse">
+      <class ref="com.sample.ws.GetISOCountryCodeByCountyNameResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyCode">
+      <class ref="com.sample.ws.GetCurrencyCode"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyCodeResponse">
+      <class ref="com.sample.ws.GetCurrencyCodeResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCountryByCurrencyCode">
+      <class ref="com.sample.ws.GetCountryByCurrencyCode"/>
+    </bindings>
+    <bindings scd="tns:GetCountryByCurrencyCodeResponse">
+      <class ref="com.sample.ws.GetCountryByCurrencyCodeResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencies">
+      <class ref="com.sample.ws.GetCurrencies"/>
+    </bindings>
+    <bindings scd="tns:GetCurrenciesResponse">
+      <class ref="com.sample.ws.GetCurrenciesResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyByCountry">
+      <class ref="com.sample.ws.GetCurrencyByCountry"/>
+    </bindings>
+    <bindings scd="tns:GetCurrencyByCountryResponse">
+      <class ref="com.sample.ws.GetCurrencyByCountryResponse"/>
+    </bindings>
+    <bindings scd="tns:GetGMTbyCountry">
+      <class ref="com.sample.ws.GetGMTbyCountry"/>
+    </bindings>
+    <bindings scd="tns:GetGMTbyCountryResponse">
+      <class ref="com.sample.ws.GetGMTbyCountryResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
